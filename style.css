@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(00, 00, 00);
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+    color: rgb(00, 170, 255);
+}
+
+.title-pic{
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.navbar{
+    background-color: rgb(00, 255, 180);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    position: fixed;
+    padding: 10px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.navbar ul li{
+    float: left;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.navbar ul li a{
+    color: rgb(00, 00, 00);
+    text-decoration: none;
+}
+
+h2{
+    font-weight: bold;
+    color: rgb(255, 255, 00);
+    text-align: center;
+}
+
+.description, .ingredients{
+    text-align: center;
+    list-style-type: none;
+}
